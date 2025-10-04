@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bharat Yadav — Portfolio</title>
+  <meta name="description" content="Portfolio of Bharat Yadav — Frontend Developer (HTML, CSS, JavaScript)" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <div class="brand">
+        <img src="IMG_20250906_142637.jpg" alt="Bharat Yadav" class="profile-img">
+        <div>
+          <h1>Bharat Yadav</h1>
+          <p class="tagline">Frontend Web Developer (HTML • CSS • JavaScript)</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="resume.pdf" class="btn">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="container about">
+      <h2>About Me</h2>
+      <p>
+        I'm a motivated frontend developer from Bhopal. I build responsive, accessible websites
+        using HTML, CSS, and JavaScript. Currently preparing for college admissions and open to internships and freelance projects.
+      </p>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:dropifybharat@gmail.com">dropifybharat@gmail.com</a></li>
+        <li><strong>Phone:</strong> 9302895258</li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/bharat-codie" target="_blank">github.com/bharat-codie</a></li>
+        <li><strong>Location:</strong> Gehunkheda, Kolar Road, Bhopal</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="container projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+
+        <div class="project-card">
+          <h3>Simple Calculator</h3>
+          <p>A responsive calculator app that performs basic arithmetic operations using HTML, CSS and JavaScript.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="buttons">
+            <a href="https://bharat-codie.github.io/Simple-calculator-/" target="_blank" class="btn primary">View Live</a>
+            <a href="https://github.com/bharat-codie/Simple-calculator-" target="_blank" class="btn">View Code</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Login Form Page</h3>
+          <p>A simple login form project built with HTML, CSS, and JavaScript with a clean UI and responsive design.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="buttons">
+            <a href="https://bharat-codie.github.io/Simple-login-page-project/" target="_blank" class="btn primary">View Live</a>
+            <a href="https://github.com/bharat-codie/Simple-login-page-project" target="_blank" class="btn">View Code</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h2>Contact</h2>
+      <p>If you'd like to work with me or just say hi, send me a message below.</p>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn primary">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Bharat Yadav • Built with HTML, CSS & JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
